@@ -1,6 +1,6 @@
 {
   "name": "ionic-image-loader",
-  "version": "6.3.3",
+  "version": "6.3.4",
   "description": "Ionic Component and Service to load images in a background thread and cache them for later use",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -18,11 +18,6 @@
     "url": "git+https://github.com/zyra/ionic-image-loader.git"
   },
   "keywords": [
-    "ionic2",
-    "image",
-    "loading",
-    "ionic",
-    "angular2"
   ],
   "author": "Zyra Media Inc.",
   "license": "MIT",
@@ -31,26 +26,11 @@
   },
   "homepage": "https://github.com/zyra/ionic-image-loader#readme",
   "devDependencies": {
-    "@angular/common": "5.2.11",
-    "@angular/compiler": "5.2.11",
-    "@angular/compiler-cli": "5.2.11",
-    "@angular/core": "5.2.11",
-    "@angular/forms": "5.2.11",
-    "@angular/http": "5.2.11",
-    "@angular/platform-browser": "5.2.11",
-    "@angular/platform-browser-dynamic": "5.2.11",
-    "@ionic-native/core": "4.13.0",
-    "@ionic-native/file": "4.13.0",
-    "codelyzer": "^4.4.2",
-    "conventional-changelog-cli": "^2.0.1",
-    "ionic-angular": "^3.9.2",
-    "rimraf": "^2.6.2",
-    "rxjs": "5.5.11",
-    "tslint": "^5.11.0",
-    "typescript": "2.4.2",
-    "zone.js": "0.8.26"
+    "@awesome-cordova-plugins/core": "6.4.0",
+    "@awesome-cordova-plugins/file": "6.4.0",
+    "rimraf": "^2.6.2"
   },
   "peerDependencies": {
-    "@ionic-native/file": "^4.0.0"
+    "@awesome-cordova-plugins/file": "^6.4.0"
   }
 }
